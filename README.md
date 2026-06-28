@@ -387,73 +387,11 @@ Then reinstall the requirements:
 ```bash
 python -m pip install -r requirements.txt
 ```
-
----
-
-## Recommended `.gitignore`
-
-For GitHub, it is recommended not to upload local virtual environments, cache files, or generated run folders.
-
-A useful `.gitignore` would be:
-
-```gitignore
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environments
-.venv/
-venv/
-env/
-
-# IDE files
-.vscode/
-.idea/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Generated game data
-worldcup_2026_runs/
-*.rpgsave
-
-# Optional local logs
-*.log
-```
-
-If you want to keep example saved games in the repository, do not ignore the full `saved_games/` folder. If you want a clean repository without local saved progress, you can also add:
-
-```gitignore
-saved_games/
-```
-
----
-
-## License
-
-Add your preferred license here.
-
-For example:
-
-```text
-MIT License
-```
-
-or:
-
-```text
-All rights reserved.
-```
-
 ---
 
 ## Author
 
-Developed by Santiago Galdor Alongil.
-
+Developed by Santiago Alonso Gil.
 ---
 
 ## Acknowledgements
